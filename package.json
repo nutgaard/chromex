@@ -1,0 +1,27 @@
+{
+  "name": "chromex",
+  "version": "0.0.1",
+  "description": "Chrome extension",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node _scripts/dev.js",
+    "build": "node _scripts/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
+    "copyfiles": "^1.2.0",
+    "cross-spawn": "^5.1.0",
+    "npm-run-all": "^4.0.2",
+    "rimraf": "^2.6.1",
+    "watchify": "^3.9.0"
+  }
+}

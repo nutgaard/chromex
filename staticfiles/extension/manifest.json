@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "DevCenter",
+  "description": "All notifications for developers",
+  "version": "0.0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["index.js"]
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "management",
+    "http://stash.devillo.no/*",
+    "https://stash.devillo.no/*",
+    "http://jira.adeo.no/*",
+    "https://jira.adeo.no/*"
+  ]
+}
